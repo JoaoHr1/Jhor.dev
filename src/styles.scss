@@ -1,1 +1,37 @@
-/* You can add global styles to this file, and also import other style files */
+$primary_white_color: #fff;
+$primary_black_color: #1E1E1E;
+$black-color: #000;
+$light_gray_color: #9e9a9a;
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Roboto&display=swap');
+
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Roboto, sans-serif;
+    background-color: $primary_white_color;
+    line-height: 1.6;
+}
+
+a {
+    text-decoration: none;
+    color: $primary_black_color
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: Montserrat;
+    line-height: 1.2;
+}
+
