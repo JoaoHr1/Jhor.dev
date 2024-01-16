@@ -1,0 +1,49 @@
+@import '../../../../styles.scss';
+
+.card__container {
+    display: flex;
+    width: 75%;
+    height: 600px;
+    margin: 0 auto;
+}
+
+.card-content {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+}
+
+.sub-title {
+    color: $light_gray_color;
+}
+
+.card-text {
+    padding-top: 20px;
+}
+
+.card-button-container {
+    padding: 20px;
+    display: flex;
+    justify-content: end;
+}
+
+.card-button {
+    background-color: $primary_white_color;
+    font-size: 24px;
+    width: 250px;
+    height: 50px;
+    border: 1px solid $light_gray_color;
+    border-radius: 25px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    padding: 20px;
+    gap: 10px;
+}
+
+.card-button:hover {
+    background-color: $primary_black_color;
+    color: $primary_white_color;
+    transition: 0.3s ease-in-out;
+}
