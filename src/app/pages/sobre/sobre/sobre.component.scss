@@ -3,8 +3,9 @@
 .card__container {
     display: flex;
     width: 75%;
-    height: 600px;
+    height: 500px;
     margin: 0 auto;
+    padding-bottom: 25px;
 }
 
 .card-content {
@@ -30,8 +31,6 @@
 .card-button {
     background-color: $primary_white_color;
     font-size: 24px;
-    width: 250px;
-    height: 50px;
     border: 1px solid $light_gray_color;
     border-radius: 25px;
     cursor: pointer;
