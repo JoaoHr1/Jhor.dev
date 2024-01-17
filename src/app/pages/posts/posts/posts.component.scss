@@ -58,7 +58,7 @@
     transition: 0.2s ease-in-out;
 }
 
-@media only screen and (min-width: 300px) and (max-width: 700px) {
+@media only screen and (min-width: 300px) and (max-width: 745px) {
     img {
         max-width: 0%;
     }
@@ -74,7 +74,7 @@
     }
 }
 
-@media only screen and (min-width: 700px) and (max-width: 1000px) {
+@media only screen and (min-width: 745px) and (max-width: 1000px) {
     img {
         max-width: 50%;
     }
